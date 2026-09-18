@@ -1,0 +1,15 @@
+{
+  "input_dir": "D:\\Firedancerx\\OneDrive\\My Library - 2021",
+  "output_vault_dir": "D:\\Firedancerx\\OneDrive\\Personal\\H-N\\Notes\\Obsidian\\Flameater\\Libraries\\Library - 2021",
+  "flameater_vault_root": "D:\\Firedancerx\\OneDrive\\Personal\\H-N\\Notes\\Obsidian\\Flameater",
+  "secondary_vault_dirs": [
+    "D:\\Firedancerx\\OneDrive\\Personal\\H-N\\Notes\\Obsidian\\Flameater\\Libraries\\Library - 2025"
+  ],
+  "vector_db_path": "D:\\Firedancerx\\OneDrive\\Personal\\H-N\\Notes\\Obsidian\\Flameater\\Libraries\\Library - 2021\\vector_store\\vector_store.sqlite",
+  "similarity_threshold": 0.25,
+  "max_books_per_batch": 50,
+  "chunk_size_words": 400,
+  "chunk_overlap_words": 50,
+  "do_agent_id": "d139564c-a122-11f1-aee4-4e013e2ddde4",
+  "folder_watch_interval_seconds": 5
+}

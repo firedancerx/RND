@@ -1,0 +1,54 @@
+# Output Vaults & Generated Knowledge Bases
+output_taxonomy/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+vector_store/
+task_list*.json
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*.class
+*.egg-info/
+dist/
+build/
+
+# IDE and editor settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Large binaries and installer packages
+*.exe
+*.zip
+*.tar.gz
+*.iso
+*.dll
+*.pdb
+*.bin
+
+# Large raw media and book files
+*.pdf
+*.epub
+*.mobi
+*.azw3
+*.mp4
+*.mp3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+.git_bak/
