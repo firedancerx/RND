@@ -6,12 +6,24 @@ output_taxonomy/
 vector_store/
 task_list*.json
 
+# Generated Obsidian importer runtime state
+Python/ObsidianLibraryImporter/concepts_registry.json
+Python/ObsidianLibraryImporter/discovery_backfill_log.json
+Python/ObsidianLibraryImporter/last_job_state.json
+Python/ObsidianLibraryImporter/tasks.json
+
 # Virtual environments
 .venv/
 .venv*/
 venv/
 ENV/
 env/
+
+# Local AI assistants, remote attachments, and editor state
+.agents/
+.claude/
+.codex-remote-attachments/
+.vscode/
 
 # Python cache & build artifacts
 __pycache__/
@@ -20,6 +32,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+**/bin/
+**/obj/
+node_modules/
 
 # IDE and editor settings
 .vs/
